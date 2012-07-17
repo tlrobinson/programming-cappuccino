@@ -1,4 +1,4 @@
-Chapter 1. Cappuccino: What Is It?
+Chapter 1. Cocoa: What Is It?
 ==================================
 
 A Little History
@@ -12,17 +12,17 @@ Cappuccino is the application framework built using Objective-J, which implement
 
 Figure 1.1 Where is Cappuccino?
 
-+------------+----------+
-| Cappuccino | Your App |
-+------------+----+-----+
-|   Objective-J   |     |
-+-----------------+     |
-|       JavaScript      |
-+-----------------------+
-|   Web Browser / DOM   |
-+-----------------------+
-|   Operating System    |
-+-----------------------+
+    +------------+----------+
+    | Cappuccino | Your App |
+    +------------+----+-----+
+    |   Objective-J   |     |
+    +-----------------+     |
+    |       JavaScript      |
+    +-----------------------+
+    |   Web Browser / DOM   |
+    +-----------------------+
+    |   Operating System    |
+    +-----------------------+
 
 Cappuccino applications are loaded and run in web browsers, rather than downloaded as desktop applications. To display their user interfaces and get user input events they use JavaScript APIs provided by the web browser. Currently Cappuccino's display technology uses DOM and Canvas APIs internally, but because Cappuccino programmers don't usually use these APIs directly that could be swapped for another technology like SVG or WebGL.
 
